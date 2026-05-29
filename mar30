@@ -1,0 +1,117 @@
+# Assignment Name: Prompt Engineer
+
+## Aim
+
+To understand the importance of prompt engineering by designing effective prompts for different tasks and comparing weak prompts with strong prompts.
+
+## Description
+
+Prompt Engineering is the process of designing clear and detailed instructions for an AI model to obtain accurate, relevant, and useful outputs. A well-written prompt provides context, objectives, constraints, and desired output formats, while a weak prompt often leads to vague or incomplete responses.
+
+As with most communication problems, the machine is usually blamed for mistakes that originated in a three-word instruction. Prompt engineering is the art of giving the AI enough information to succeed.
+
+## 1. Resume Generation
+
+### Weak Prompt
+
+**text**
+Make my resume.
+
+### Strong Prompt
+
+**text**
+Create a professional one-page resume for a final-year Computer Science student with skills in Python, Machine Learning, HTML, CSS, and SQL. Include education, technical skills, projects, certifications, and achievements. Use a modern professional format suitable for software engineering internships.
+
+### Comparison
+
+| Weak Prompt            | Strong Prompt                   |
+| ---------------------- | ------------------------------- |
+| No details provided    | Clear role and background       |
+| Output may be generic  | Customized output               |
+| No formatting guidance | Specifies structure and purpose |
+
+## 2. Business Idea Generation
+
+### Weak Prompt
+
+**text**
+Give me a business idea.
+
+### Strong Prompt
+
+**text**
+Suggest five low-investment technology-based business ideas for college students in India. Include startup cost, target customers, revenue model, advantages, and growth potential for each idea.
+
+### Comparison
+
+| Weak Prompt         | Strong Prompt                      |
+| ------------------- | ---------------------------------- |
+| Too broad           | Clearly defined requirements       |
+| Generic ideas       | Targeted and practical ideas       |
+| No business details | Includes cost and revenue analysis |
+
+## 3. Study Plan Creation
+
+### Weak Prompt
+
+**text**
+Make a study plan.
+
+### Strong Prompt
+
+**text**
+Create a 30-day study plan for learning Machine Learning from scratch. Allocate 2 hours per day and include Python basics, data preprocessing, supervised learning, unsupervised learning, model evaluation, and mini-projects.
+
+### Comparison
+
+| Weak Prompt         | Strong Prompt               |
+| ------------------- | --------------------------- |
+| Missing goal        | Specific learning objective |
+| No time frame       | Defined schedule            |
+| No topics mentioned | Complete roadmap provided   |
+
+## Why Strong Prompts Work Better
+
+### Specificity
+
+Strong prompts clearly define the task.
+
+### Context
+
+They provide background information.
+
+### Constraints
+
+They specify limits such as time, format, or length.
+
+### Desired Output
+
+They explain how the answer should be structured.
+
+## General Prompt Engineering Formula
+
+**text**
+Role + Task + Context + Constraints + Output Format
+
+### Example
+
+**text**
+Act as a career counselor.
+Create a study roadmap for a final-year engineering student.
+Focus on machine learning and data science.
+Limit the plan to 3 months.
+Present the output in a weekly table.
+
+## Applications of Prompt Engineering
+
+- Resume Building
+- Content Generation
+- Business Planning
+- Software Development
+- Research Assistance
+- Educational Support
+- Chatbots and Virtual Assistants
+
+## Conclusion
+
+Prompt engineering plays a critical role in obtaining high-quality AI-generated responses. Strong prompts provide clear instructions, context, and expectations, resulting in more accurate and useful outputs. By comparing weak and strong prompts, it becomes evident that detailed prompts significantly improve the performance and reliability of AI systems.

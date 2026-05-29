@@ -1,0 +1,73 @@
+# Assignment Name: Semantic Meaning
+
+## Aim
+
+To understand semantic similarity by analyzing pairs of words and explaining how closely related their meanings are.
+
+## Description
+
+Semantic similarity refers to the degree to which two words, phrases, or concepts have similar meanings. In Natural Language Processing (NLP), semantic similarity helps computers understand relationships between words and improve tasks such as search engines, chatbots, recommendation systems, and machine translation.
+
+Humans instantly know that "car" and "automobile" mean nearly the same thing, while "car" and "banana" do not. Computers, unfortunately, need this explained with mathematics.
+
+## Word Pairs and Semantic Similarity
+
+### 1. Car – Automobile
+
+**Semantic Similarity:** Very High
+
+**Explanation:**
+Both words refer to the same type of vehicle used for transportation. They are essentially synonyms.
+
+**Example:**
+
+- I bought a new car.
+- I bought a new automobile.
+
+### 2. Student – Learner
+
+**Semantic Similarity:** High
+
+**Explanation:**
+Both words describe a person who is acquiring knowledge or skills. While not identical, they are closely related in meaning.
+
+**Example:**
+
+- The student attended the lecture.
+- The learner attended the lecture.
+
+### 3. Doctor – Nurse
+
+**Semantic Similarity:** Medium
+
+**Explanation:**
+They are different professions but belong to the same healthcare domain and often work together.
+
+**Example:**
+
+- The doctor examined the patient.
+- The nurse assisted the patient.
+
+### 4. Cat – Dog
+
+**Semantic Similarity:** Medium
+
+**Explanation:**
+Cats and dogs are different animals, but both are common household pets and share several characteristics.
+
+**Example:**
+
+- The cat is sleeping.
+- The dog is sleeping.
+
+### 5. Computer – Keyboard
+
+**Semantic Similarity:** Low to Medium
+
+**Explanation:**
+A keyboard is a component of a computer system. They are related but do not have similar meanings.
+
+**Example:**
+
+- The computer is running.
+- The keyboard is connected.

@@ -1,0 +1,44 @@
+### Five Uses of Face/Object Detection
+
+**1. Face Attendance System**
+
+- Detects and recognizes students or employees.
+- Automatically marks attendance.
+- Reduces manual effort and proxy attendance.
+
+**2. Traffic Monitoring System**
+
+- Detects vehicles on roads.
+- Monitors traffic density.
+- Helps manage congestion and traffic violations.
+
+**3. Security Surveillance**
+
+- Detects suspicious persons or objects.
+- Sends alerts when unauthorized individuals are detected.
+- Improves public safety.
+
+**4. Smart Retail Stores**
+
+- Detects products and customer movement.
+- Tracks inventory automatically.
+- Analyzes customer shopping behavior.
+
+**5. Medical Assistance System**
+
+- Detects medical equipment or patients.
+- Assists healthcare professionals in monitoring patients.
+- Improves hospital management.
+- Designed Solution
+
+### Project Title
+
+Smart Classroom Attendance System Using Face Detection
+
+**Problem Statement**
+
+Taking attendance manually consumes valuable classroom time and is prone to errors. A system is needed to automatically record student attendance.
+
+**Proposed Solution**
+
+A camera installed in the classroom captures live video. The system detects and recognizes student faces and automatically records attendance in a database.

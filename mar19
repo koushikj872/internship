@@ -1,0 +1,52 @@
+# Mini Project Proposal
+
+## Title
+
+Student Performance Prediction Using Machine Learning
+
+### 1. Problem Statement
+
+Educational institutions often struggle to identify students who may perform poorly in examinations. Early prediction of student performance can help teachers provide additional support and improve academic outcomes. This project aims to predict a student's final performance based on factors such as study hours, attendance, previous grades, and participation.
+
+### 2. Dataset
+
+The project will use the Student Performance Dataset available from public sources such as Kaggle or the UCI Machine Learning Repository.
+
+**Dataset Attributes:**
+
+- Study Hours
+- Attendance Percentage
+- Previous Exam Marks
+- Assignment Scores
+- Participation Level
+- Final Grade/Performance
+
+### 3. Algorithm
+
+The following machine learning algorithms will be considered:
+
+- Linear Regression (for score prediction)
+- Decision Tree Regression
+- Random Forest Regression
+
+The dataset will be preprocessed, divided into training and testing sets, and used to train the prediction model. Model performance will be evaluated using suitable metrics such as Mean Squared Error (MSE) and R² Score.
+
+### 4. Expected Output
+
+The system will:
+
+- Predict a student's expected final score.
+- Identify students at risk of poor performance.
+- Display prediction results through a simple user interface.
+- Generate performance insights for educators.
+
+### 5. Applications
+
+- Academic performance monitoring
+- Early intervention for weak students
+- Educational analytics
+- Personalized learning support
+
+### 6. Conclusion
+
+This project demonstrates the application of machine learning in education by predicting student performance using historical academic data. The system can assist teachers and institutions in making data-driven decisions to improve student success.

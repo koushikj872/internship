@@ -1,0 +1,18 @@
+College:
+- Student Performance Prediction: Attendance, study hours, assignment scores → Final exam grade
+- Course Recommendation System: Student interests, completed courses, grades → Recommended courses
+- Student Dropout Prediction: Attendance, academic records, engagement data → Dropout risk (High/Medium/Low)
+- Placement Prediction: CGPA, skills, projects, internships → Placement probability
+
+Healthcare:
+- Disease Prediction: Symptoms, age, medical history → Predicted disease
+- Hospital Readmission Prediction: Patient records, treatment history → Readmission risk
+- Heart Disease Detection: Blood pressure, cholesterol, ECG data → Heart disease likelihood
+- Medical Appointment No-Show Prediction: Appointment history, demographics → Will attend or not
+
+Shopping:
+- Product Recommendation: Browsing history, purchases, ratings → Recommended products
+- Customer Churn Prediction: Purchase frequency, spending habits → Churn risk
+- Demand Forecasting: Historical sales, season, promotions → Future product demand
+- Review Sentiment Analysis: Customer reviews → Positive/Negative/Neutral sentiment
+|

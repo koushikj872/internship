@@ -1,0 +1,22 @@
+| No. | Messy Sentence           | Issues Found         | Preprocessing Needed                     |
+| --- | ------------------------ | -------------------- | ---------------------------------------- |
+| 1   | Hiiiii frnd 😍           | Typo, Emoji          | Normalize spelling, Remove/Convert emoji |
+| 2   | OMG this movie is lit 🔥 | Slang, Emoji         | Expand slang, Handle emoji               |
+| 3   | Gud mrng evry1           | Typo, Abbreviation   | Correct spelling                         |
+| 4   | LOL that's funny 😂      | Slang, Emoji         | Expand slang, Convert emoji              |
+| 5   | I canttt believe dis     | Typo                 | Spell correction                         |
+| 6   | BRB, I'll txt u later    | Abbreviation         | Expand abbreviations                     |
+| 7   | Thx for ur help 😊       | Short forms, Emoji   | Replace short forms                      |
+| 8   | Wht r u doing??          | Missing words, Typo  | Spell correction                         |
+| 9   | Cya tomorrow 👍          | Abbreviation, Emoji  | Expand abbreviation                      |
+| 10  | This food iz amazng      | Typo                 | Spell correction                         |
+| 11  | Idk what happened 😢     | Slang, Emoji         | Expand slang                             |
+| 12  | Plz snd me d file        | Abbreviation, Typo   | Correct spelling                         |
+| 13  | Btw, meeting at 5pm      | Slang                | Expand slang                             |
+| 14  | Gr8 work team! 🎉        | Numeric slang, Emoji | Replace slang                            |
+| 15  | U r awesome 😎           | Short forms, Emoji   | Normalize text                           |
+| 16  | Lemme knw asap           | Slang, Typo          | Expand and correct                       |
+| 17  | Tmrw exam is cancelled   | Abbreviation         | Expand abbreviation                      |
+| 18  | Yooo brooo wassup        | Repeated letters     | Normalize text                           |
+| 19  | I luv this song ❤️       | Slang, Emoji         | Expand slang                             |
+| 20  | Gonna be late, sry       | Slang, Typo          | Expand slang                             |

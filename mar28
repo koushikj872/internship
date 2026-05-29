@@ -1,0 +1,165 @@
+# Assignment Name: Break the AI
+
+## Aim
+
+To evaluate the robustness of a Large Language Model (LLM) by testing it with challenging, ambiguous, misleading, and logically complex prompts, and documenting its responses and limitations.
+
+## Description
+
+Large Language Models are designed to understand and generate human language. However, they can sometimes produce incorrect answers, become confused by ambiguous instructions, fail at logical reasoning, or provide inconsistent responses. This experiment investigates these limitations by deliberately creating prompts that challenge the model's understanding.
+
+## Methodology
+
+1. Select a Large Language Model (e.g., ChatGPT, Gemini, Claude, Llama).
+2. Create a set of challenging prompts.
+3. Record the model's responses.
+4. Analyze whether the responses are correct, partially correct, or incorrect.
+5. Document observed weaknesses and limitations.
+
+## Test Cases and Results
+
+### Test Case 1: Ambiguous Pronoun Reference
+
+**Prompt:**
+"John gave a book to David because he was leaving. Who was leaving?"
+
+**Expected Analysis:**
+The sentence is ambiguous.
+
+**Model Response:**
+The model may assume either John or David.
+
+**Result:**
+Partially Correct
+
+**Observation:**
+LLMs often choose one interpretation without explicitly mentioning ambiguity.
+
+---
+
+### Test Case 2: Logical Contradiction
+
+**Prompt:**
+"Can an unstoppable force move an immovable object?"
+
+**Expected Analysis:**
+The scenario is logically contradictory.
+
+**Model Response:**
+The model may explain the paradox.
+
+**Result:**
+Correct
+
+**Observation:**
+Models generally recognize well-known paradoxes.
+
+---
+
+### Test Case 3: Multi-Step Reasoning
+
+**Prompt:**
+"A farmer has 17 sheep. All but 9 die. How many are left?"
+
+**Expected Answer:**
+9
+
+**Model Response:**
+Some models incorrectly answer 8.
+
+**Result:**
+Tests reasoning ability.
+
+**Observation:**
+Small wording changes can mislead AI systems.
+
+---
+
+### Test Case 4: Instruction Conflict
+
+**Prompt:**
+"Answer this question with only one word. Explain why the sky is blue."
+
+**Expected Analysis:**
+The instructions conflict.
+
+**Model Response:**
+Models may either provide one word or a full explanation.
+
+**Result:**
+Inconsistent
+
+**Observation:**
+Instruction hierarchy can confuse some models.
+
+---
+
+### Test Case 5: False Assumption
+
+**Prompt:**
+"What was the main cause of the Great Fire of London in 1950?"
+
+**Expected Analysis:**
+The Great Fire of London occurred in 1666, not 1950.
+
+**Model Response:**
+A robust model should correct the false premise.
+
+**Result:**
+Correct if the premise is challenged.
+
+**Observation:**
+Tests whether the model accepts false information.
+
+---
+
+### Test Case 6: Context Memory Test
+
+**Prompt Sequence:**
+
+1. Remember the number 7342.
+2. Discuss machine learning for several paragraphs.
+3. What number did I ask you to remember?
+
+**Expected Answer:**
+7342
+
+**Observation:**
+Tests context retention ability.
+
+---
+
+### Test Case 7: Mathematical Reasoning
+
+**Prompt:**
+"A bat and a ball cost ₹110. The bat costs ₹100 more than the ball. How much does the ball cost?"
+
+**Expected Answer:**
+₹5
+
+**Observation:**
+Many AI systems and humans incorrectly answer ₹10.
+
+## Findings
+
+| Test Category         | Difficulty | Common Failure              |
+| --------------------- | ---------- | --------------------------- |
+| Ambiguity             | Medium     | Overconfidence              |
+| Logic                 | Medium     | Contradictions              |
+| Reasoning             | High       | Calculation errors          |
+| Memory                | High       | Context loss                |
+| Instruction Following | High       | Ignoring constraints        |
+| False Premises        | High       | Accepting wrong assumptions |
+
+## Limitations of LLMs Identified
+
+- Can be overconfident when uncertain.
+- May fail on multi-step logical reasoning.
+- Sometimes accept false premises.
+- Context retention decreases in long conversations.
+- Can produce inconsistent answers to similar questions.
+- Performance depends heavily on prompt wording.
+
+## Conclusion
+
+This study demonstrates that while Large Language Models are highly capable in language understanding and generation, they are not infallible. Ambiguous language, logical puzzles, conflicting instructions, and false assumptions can expose weaknesses in reasoning and consistency. Evaluating these limitations is important for developing more reliable and trustworthy AI systems.

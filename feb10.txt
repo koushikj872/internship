@@ -1,0 +1,19 @@
+1.Google Maps predicts traffic because machine learning studies past travel times, live GPS data, and patterns to guess how crowded roads will be.
+
+2.YouTube recommendations work since ML watches what you click, how long you watch, and compares it with millions of others to predict what you’ll like next.
+
+3.Email spam filters learn from examples of spam vs real emails and keep adjusting their rules based on what people mark as junk.
+
+4.Voice assistants like Siri or Google Assistant use ML to convert speech into text and then predict the most likely meaning of what you said.
+
+5.Netflix suggestions happen because ML analyzes your watch history and compares it with viewers who have similar tastes.
+
+6.Online shopping sites recommend products by using ML to study what you browsed, bought, or even paused on.
+
+7.Phone face unlock works because ML models learn facial patterns and match them with stored features of your face.
+
+8.Instagram or Facebook feeds are arranged by ML systems that predict which posts you’re most likely to engage with.
+
+9.Keyboard autocorrect and next-word prediction rely on language models trained on massive text data to guess what you intend to type.
+
+10.Banking fraud detection uses ML to notice unusual spending patterns compared to your normal habits and flags suspicious activity.
